@@ -39,9 +39,9 @@ The analysis investigates questions such as:
 5. Interpretation of findings and business insights
 
 ## Repository Contents
-- `HR-Employee-Analytics.ipynb` — Python analysis and visualizations
-- `HRDataset.csv` — Employee dataset
-- `README.md` — Project documentation
+- *HR Employee Analytics.ipynb* — Python analysis and visualizations
+- *HRDataset.csv* — Employee dataset
+- *Readme.md* — Project documentation
   
 ## Key Findings
 - Employee salaries vary across job positions and departments.
