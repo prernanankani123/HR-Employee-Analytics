@@ -20,7 +20,6 @@ The analysis investigates questions such as:
 ## Tools and Skills
 - **Python** — data analysis
 - **Pandas** — data manipulation and cleaning
-- **NumPy** — numerical analysis
 - **Matplotlib** — data visualization
 - **Seaborn** — statistical charts and relationship analysis
 - **Exploratory Data Analysis (EDA)** — identifying patterns and trends
