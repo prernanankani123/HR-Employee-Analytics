@@ -12,7 +12,7 @@ This project uses Python to analyze employee data and identify patterns in salar
 ## Business Questions
 The analysis investigates questions such as:
 - How are employee salaries distributed?
-- How does salary vary across departments?
+- How does salary vary across departments and employee status?
 - Is employee performance associated with salary?
 - Is there a visible relationship between employee engagement and salary?
 - How does salary vary with the number of special projects handled?
