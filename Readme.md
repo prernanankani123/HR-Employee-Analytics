@@ -14,11 +14,14 @@ The analysis examines salary distribution, compares salaries across positions an
 ## Business Questions
 The analysis investigates questions such as:
 - How are employee salaries distributed?
-- How does salary vary across departments and employee status?
-- Is employee performance associated with salary?
-- Is there a visible relationship between employee engagement and salary?
+- How does employee position affect salary levels?
+- Do employees with higher engagement scores tend to earn more?
+- How does salary distribution vary across departments and employment status?
+- What percentage of employees belong to each department category?
 - How does salary vary with the number of special projects handled?
-
+- Is Salary correlated with employee performance score?
+- How is Salary related to other numerical employee factors?
+  
 ## Tools and Skills
 - **Python** — data analysis
 - **Pandas** — data manipulation and cleaning
@@ -29,6 +32,8 @@ The analysis investigates questions such as:
 
 ## Dataset
 - **Dataset Name:** HRDataset
+- **Source:** Kaggle
+- **Dataset Link:** [HRDataset](https://www.kaggle.com/datasets/rhuebner/human-resources-data-set)
 - **Records:** 311 employees
 - **Features:** 36 columns
 - **Data:** Salary, Position, Department, PerformanceScore, EmpSatisfaction, EngagementSurvey, and other employee attributes.
@@ -67,14 +72,56 @@ The analysis investigates questions such as:
 - Created scatter plots to explore relationships between numerical variables.
 - Used correlation analysis and heatmaps to investigate relationships among selected numerical attributes.
 
-### 5. Findings and Business Insights
+## Visualizations
 
-- Identified differences in salary across job positions and departments.
-- Observed a weak positive association between salary and performance score.
-- Examined the relationship between employee engagement and salary.
-- Identified the Production department as the largest workforce group in the dataset.
-- Found that salary differences did not follow a consistent pattern across special project counts.
-- Summarized the findings to support further investigation and data-informed HR decisions.
+The following visualizations help explore employee salary patterns, departmental distribution, and relationships between selected employee attributes.
+
+### 1. Salary Distribution
+
+A histogram is used to understand how employee salaries are distributed across the dataset.
+<img width="457" height="253" alt="image" src="https://github.com/user-attachments/assets/f7d41a27-0772-46be-aec3-9bf0a42a93f5" />
+
+**Observation:**
+Employee salaries are spread across a range of values, indicating differences in compensation among employees.
+
+### 2. Salary vs Position
+A box plot compares employee salaries across different job positions.
+
+<img width="453" height="298" alt="image" src="https://github.com/user-attachments/assets/726b8697-47db-491b-9af3-d4861585447d" />
+
+
+**Observation:**
+Salary levels vary across job positions, suggesting that compensation differs depending on the role.
+
+### 3. Department-wise Employee Distribution
+A pie chart shows the percentage of employees belonging to each department.
+<img width="437" height="301" alt="image" src="https://github.com/user-attachments/assets/ec4c1442-7766-44ac-9ea6-1506fbdce641" />
+
+**Observation:**
+The Production department represents approximately 67.2% of the employees in the dataset, making it the largest department by employee count.
+
+### 4. Correlation Heatmap
+A heatmap displays correlations between selected numerical employee attributes.
+
+<img width="389" height="311" alt="image" src="https://github.com/user-attachments/assets/d6d9abb9-72bf-4c97-a737-0f435537d90a" />
+
+
+**Observation:**
+The heatmap helps identify positive and negative relationships among numerical variables. Correlation indicates association and does not necessarily imply causation.
+
+## Key Findings
+- Employee salaries vary across job positions and departments.
+- Salary has a weak positive correlation with performance score in this dataset.
+- Employee engagement does not show a strong visible relationship with salary.
+- The Production department represents the largest workforce group in the dataset.
+- Salary differences across special project counts do not follow a consistent pattern.
+
+## Business Insights
+- Salary comparison: Differences across positions and departments show why salary should be reviewed in the context of employee role and department.
+- Performance and salary: The weak positive correlation suggests that performance score alone does not explain salary differences in this dataset.
+- Employee engagement: The lack of a strong visible relationship with salary suggests that engagement should be explored alongside other workplace factors rather than inferred from salary alone.
+- Workforce distribution: The large share of employees in Production highlights the importance of understanding department-level workforce composition.
+- Special projects: The inconsistent salary pattern across special project counts suggests that this variable alone may not explain salary differences.
   
 ## Repository Contents
 - `HR Employee Analytics.ipynb` — Jupyter Notebook containing the Python code, analysis, and visualizations.
